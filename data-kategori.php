@@ -36,7 +36,7 @@
             <div class="container">
                 <h1>Data Kategori</h1>
                 <div class="box">
-                    <p><a href="tambah-kategori.php">Tambah Data</a></p>
+                    <p><a class="btn2" href="tambah-kategori.php">Tambah Data</a></p>
                 <table border="1" cellspacing="0" class="table">
                     <thead>
                         <tr>
@@ -56,7 +56,8 @@
                             <td><?php echo $no++ ?></td>
                             <td><?php echo $row['category_name'] ?></td>
                             <td>
-                                <a href="edit-kategori.php?id=<?php echo $row['category_id']?>">Edit</a> || <a href="proses-hapus.php?idk=<?php echo $row['category_id'] ?>" onclick="return confirm('Are You Sure to delete it?')">Hapus</a>
+                                <a class="edit" href="edit-kategori.php?id=<?php echo $row['category_id']?>">Edit</a>
+                                <a class="hapus" href="proses-hapus.php?idk=<?php echo $row['category_id'] ?>" onclick="return confirm('Are You Sure to delete it?')">Hapus</a>
                             </td>
                         </tr>
                     <?php }}else{ ?>

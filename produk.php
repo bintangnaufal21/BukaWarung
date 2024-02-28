@@ -57,7 +57,7 @@ $a = mysqli_fetch_object($kontak);
                         <a href="detail-produk.php?id=<?php echo $p['product_id'] ?>">
                             <div class="col-4">
                                 <img src="produk/<?php echo $p['product_image'] ?>">
-                                <p class="nama"><?php echo substr($p['product_name'], 0, 30) ?></p>
+                                <p class="name"><?php echo substr($p['product_name'], 0, 30) ?></p>
                                 <p class="harga">Rp. <?php echo number_format($p['product_price']) ?></p>
                             </div>
                         </a>

@@ -5,7 +5,7 @@
      
 } 
 body{
-    background-color: #f8f8f8;
+    background-color: #FBF9F1;
 }
 a {
     color: inherit;
@@ -20,8 +20,8 @@ a {
 .box-login{
     width: 300px;
     min-height: 200px;
-    border: 1px solid #ccc;
-    background-color: #fff;
+    border: 1px solid #76453B;
+    background-color: #F8FAE5;
     padding: 15px;
     box-sizing: border-box;
 
@@ -37,15 +37,24 @@ a {
     box-sizing: border-box;
 }
 .btn {
-    padding: 8px 15px;
-    background-color: #C70039;
-    color: #fff;
+    padding: 8px 25px;
+    background-color: #B19470;
+    color: #F8FAE5;
     border: none;
     cursor: pointer;
 }
+.btn2{
+    margin-bottom: 15px;
+    float: left;
+    background-color: #B19470;
+    color: #F8FAE5;
+    padding: 5px 6px;
+    font-size: 14px;
+    
+}
 header {
-    background-color: #C70039;
-    color: #fff;
+    background-color: #43766C;
+    color: #F8FAE5;
 }
 header h1{
     float: left;
@@ -79,7 +88,7 @@ footer{
 }
 .box{
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #FBF9F1;
     padding: 15px;
     box-sizing: border-box;
     margin: 10px 0 25px 0; 
@@ -102,8 +111,8 @@ footer{
 }
 .search{
     padding: 15px 0;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #FBF9F1;
+    /* border: 1px solid #FBF9F1; */
     text-align: center;
 }
 .search input[type=text]{
@@ -112,7 +121,7 @@ footer{
 }
 .search input[type=submit]{
     padding: 12px 15px;
-    background-color: #C70039;
+    background-color: #B19470;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -128,7 +137,7 @@ footer{
 .col-4{
     width: 25%;
     height: 320px;
-    border: 1px solid grey;
+    border: 1px solid  #FBF9F1;
     float: left;
     padding: 10px;
     box-sizing: border-box;
@@ -143,20 +152,21 @@ footer{
  width: 100%;
 }
 .col-4 .name{
-    color: #666;
+    color: #B19470;
     margin-bottom: 5px;
 
 }
 .col-4 .harga{
     font-weight: bold;
-    color: #C70039;
+    color: #76453B;
     float: right;
 }
 .footer{
     padding: 25px 0;
-    background-color: #333;
-    color: #fff;
+    background-color: #43766C;
+    color: #F8FAE5;
     text-align: center;
+
 }
 .footer p {
     margin-bottom: 10px;
@@ -181,7 +191,7 @@ footer{
     margin-bottom: 10px;
 }
 .col-2 h4{
-    color: #C70039;
+    color: #76453B;
 }
 .col-2 p{
     margin: 15px 0;
@@ -190,12 +200,26 @@ footer{
     font-size: 14px;
 }
 .col-2 p a{
-    color: #f9f9f9;
+    color: #F8FAE5;
     font-weight: bold;
     border-radius: 50px;
-    background-color: #C70039;
+    background-color: #76453B;
     padding: 10px;
 
+}
+.edit{
+    /* border: 1px solid; */
+    padding: 2px 5px;
+    margin: 0 4px;
+    background-color: #B19470;
+    color: #F8FAE5;
+}
+.hapus{
+    /* border: 1px solid; */
+    background-color: #76453B;
+    padding: 2px 8px;
+    margin: 0 4px;
+    color: #F8FAE5;
 }
 
 @media screen and (max-width: 768px){
@@ -221,7 +245,5 @@ footer{
         font-weight: bold;
         background-color: #C70039;
         margin: 5px 5px;
-    
-}
-
+    }
 }

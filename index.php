@@ -13,7 +13,9 @@ $a = mysqli_fetch_object($kontak);
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>||Bukawarung</title>
+    <script src="https://kit.fontawesome.com/ae0c916b14.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/warung.jpg">
+    <title>BukaWarung</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,6 +26,7 @@ $a = mysqli_fetch_object($kontak);
             <h1><a href="index.php">Bukawarung</a></h1>
             <ul>
                 <li><a href="produk.php">Produk</a></li>
+                <li><a href="login.php">Login</a></li>
             </ul>
         </div>
     </header>
@@ -52,7 +55,8 @@ $a = mysqli_fetch_object($kontak);
                 ?>
                         <a href="produk.php?kat=<?php echo $k['category_id'] ?>">
                             <div class="col-5">
-                                <img src="img/category-icon.png" width="50px" style="margin-bottom: 5px;">
+                                <i class="fa-solid fa-layer-group fa-bounce fa-2xl"></i>
+                                <br><br>
                                 <p><?php echo $k['category_name'] ?></p>
                             </div>
                         </a>

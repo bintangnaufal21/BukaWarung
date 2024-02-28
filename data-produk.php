@@ -36,7 +36,7 @@
             <div class="container">
                 <h1>Data Produk</h1>
                 <div class="box">
-                    <p><a href="tambah-produk.php">Tambah Data</a></p>
+                    <p><a class="btn2" href="tambah-produk.php">Tambah Data</a></p>
                 <table border="1" cellspacing="0" class="table">
                     <thead>
                         <tr>
@@ -64,8 +64,8 @@
                             <td><a href="produk/<?php echo $row['product_image'] ?>" target="_blank"><img src="produk/<?php echo $row['product_image'] ?>" alt="Foto Produk" width="50px"></a></td>
                             <td><?php echo ($row['product_status'] == 0)? 'Tidak Aktif':'Aktif'; ?></td>
                             <td>
-                                <a href="edit-produk.php?id=<?php echo $row['product_id']?>">Edit</a> || 
-                                <a href="proses-hapus.php?idp=<?php echo $row['product_id'] ?>" onclick="return confirm('Are You Sure to delete it?')">Hapus</a>
+                                <a class="edit" href="edit-produk.php?id=<?php echo $row['product_id']?>">Edit</a>
+                                <a class="hapus" href="proses-hapus.php?idp=<?php echo $row['product_id'] ?>" onclick="return confirm('Are You Sure to delete it?')">Hapus</a>
                             </td>
                         </tr>
                     <?php } }else{ ?>
