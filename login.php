@@ -16,7 +16,10 @@
             <input type="text" name="user" placeholder="Username" class="input-control" autocomplete="off"> 
             <input type="password" name="pass" placeholder="Password" class="input-control">
             <input type="submit" name="submit" value="login" class="btn">
+            <p><a class="register" href="index.php">lanjutkan sebagai user</a></p>
         </form>
+        <br>
+        
         <?php
         if(isset($_POST['submit'])){
             session_start();
