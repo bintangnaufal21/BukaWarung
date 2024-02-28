@@ -56,9 +56,7 @@ $p = mysqli_fetch_object($produk);
                     <h4>Rp. <?php echo number_format($p->product_price ) ?></h4>
                     <p><?php echo $p->product_description ?></p>
                     <br>
-                    <!-- <p class="button"><a href="https://api.whatsapp.com/send?phone=<?php echo $a->admin_telp ?>&text=Hai, Saya Tertarik dengan produk ini" target="_blank">Tertarik? Hubungi Kami</a></p> -->
-                    <a href="https://api.whatsapp.com/send?phone=<?php echo $a->admin_telp ?>&text=Hai, Saya Tertarik dengan produk ini" target="_blank"><i class="fa-solid fa-cart-shopping fa-2xl"></i></a>
-                   
+                    <a href="https://api.whatsapp.com/send?phone=<?php echo $a->admin_telp ?>&text=Hai, Saya Tertarik dengan produk ini" target="_blank"><i class="fa-solid fa-cart-shopping fa-2xl"></i></a>   
                 </div>
             </div>      
         </div>
