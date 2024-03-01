@@ -69,8 +69,7 @@
                 </table>
                 </div>
             </div>
-        </div>
-
+        </div>> 
         <!-- FOOTER -->
         <footer>
             <div class="container">
