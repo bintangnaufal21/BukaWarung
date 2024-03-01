@@ -42,6 +42,7 @@ a {
     color: #F8FAE5;
     border: none;
     cursor: pointer;
+    border-radius: 25px;
 }
 .btn2{
     margin-bottom: 15px;
@@ -50,6 +51,7 @@ a {
     color: #F8FAE5;
     padding: 5px 6px;
     font-size: 14px;
+    border-radius: 25px;
     
 }
 header {
@@ -92,6 +94,7 @@ footer{
     padding: 15px;
     box-sizing: border-box;
     margin: 10px 0 25px 0; 
+    border-radius: 5px;
 }
 .box:after{
     content: '';
@@ -118,6 +121,7 @@ footer{
 .search input[type=text]{
     width: 60%;
     padding: 10px;  
+    border-radius: 25px;
 }
 .search input[type=submit]{
     padding: 12px 15px;
@@ -125,6 +129,7 @@ footer{
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 25px;
 }
 .col-5{
     width: 20%;
@@ -142,6 +147,7 @@ footer{
     padding: 10px;
     box-sizing: border-box;
     margin-bottom:10px ;
+    border-radius: 25px;
 
 }
 .col-4:hover{
@@ -209,10 +215,11 @@ footer{
 }
 .edit{
     /* border: 1px solid; */
-    padding: 2px 5px;
+    padding: 4px 5px;
     margin: 0 4px;
     background-color: #B19470;
     color: #F8FAE5;
+    border-radius: 20px;
 }
 .hapus{
     /* border: 1px solid; */
@@ -220,6 +227,7 @@ footer{
     padding: 2px 8px;
     margin: 0 4px;
     color: #F8FAE5;
+    border-radius: 20px;
 }
 .register {
     font-size: 12px;
